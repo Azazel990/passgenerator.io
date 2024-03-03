@@ -33,17 +33,17 @@
 
         <div class="bar row mt-5 justify-content-center ">
             <div class="col-md-5">
-                <input type="text" name="password" class="form-control" disabled>
+                <input type="text" name="password" class="form-control" id="strong_password" disabled>
             </div>
             <div class="col-sm-2">
-                <button type="button" class="btn  btn-primary"> Generate</button>
+                <button type="button" class="btn  btn-primary" id="generateButton"> Generate</button>
             </div>
         </div>
 
         <div class="range mt-5">
             <div class="slider">
                 <span>Password Length</span>
-                <input type="range" min="4" max="32" value="8" oninput="rangeValue.innerText = this.value">
+                <input type="range" min="4" max="32" value="8" oninput="rangeValue.innerText = this.value" id="val_length">
                 <p id="rangeValue">8</p>
             </div>
         </div>
@@ -82,3 +82,7 @@
 </body>
 
 </html>
+
+<script>
+    
+</script>
